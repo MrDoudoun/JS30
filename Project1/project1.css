@@ -1,0 +1,42 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-color: black;
+}
+
+
+.keys, .songs {
+	display : flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+
+}
+
+kbd {
+	color: white;
+	padding: 15px;
+	font-size: 20px;
+}
+
+.key {
+	border: 2px solid white;
+	transition: all 0.7;
+}
+.sentence {
+	text-align: center;
+	color: white;
+	position: relative;
+	bottom: 130%;
+	font-size: 25px;
+	font-family: 'Indie Flower';
+
+}
+.played {
+	transform: scale(1.2);
+	border-color: green;
+	box-shadow : 0 0 10px #ffc600;
+}

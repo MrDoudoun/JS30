@@ -1,0 +1,29 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+.clock {
+	position: relative;
+	margin: 25% auto;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	border-radius: 50%;
+}
+
+#hours, #minutes, #seconds {
+	height: 2px;
+	width: 50%;
+	background-color: black;
+	position: absolute;
+	margin: 50% 0;
+	transform-origin: 100%;
+	transform: rotate(90deg);
+	transition: 0.5;
+	transition-timing-function: cubic-bezier(0.1, 2.7; 0.58, 1);
+}
